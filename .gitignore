@@ -102,3 +102,18 @@ dist
 
 # TernJS port file
 .tern-port
+week1/notes/node-api/index.html
+week1/notes/node-api/package-lock.json
+week1/LiveLecture/week1/notes.js
+week1/LiveLecture/week1/notes.md
+week1/LiveLecture/week1/assets/images/js-call-stack.png
+week1/LiveLecture/week1/assets/images/node-callback-pattern-and-error-callback-convention.png
+week1/notes/node-api/package.json
+week1/notes/node-api/server.js
+week1/notes/node-api/users.js
+week1/notes/node-api/network/client.js
+week1/notes/node-api/network/filewatcher.js
+week1/notes/node-api/network/subject.txt
+week1/LiveLecture/week1/main.js
+week1/LiveLecture/week1/calc.js
+week1/test.html
