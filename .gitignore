@@ -117,3 +117,12 @@ week1/notes/node-api/network/subject.txt
 week1/LiveLecture/week1/main.js
 week1/LiveLecture/week1/calc.js
 week1/test.html
+LiveLecture/week1/main.js
+.gitignore
+.gitignore
+.gitignore
+LiveLecture/week1/assets/images/node-callback-pattern-and-error-callback-convention.png
+LiveLecture/week1/assets/images/js-call-stack.png
+LiveLecture/week1/notes.md
+LiveLecture/week1/calc.js
+LiveLecture/week1/notes.js
