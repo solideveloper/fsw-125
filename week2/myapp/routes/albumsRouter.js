@@ -1,9 +1,8 @@
-const 
-     { v4: uuidv4 } = require('uuid');
-     express = require("express");
-     albumsRouter = express.Router();
+const { v4: uuidv4 } = require('uuid');
+const express = require("express");
+const albumsRouter = express.Router();
 
-     albums = [
+let albums = [
      { name: "Take It Back", year: 2014 },
      { name: "Adele 19", year: 2008 },
      { name: "Talia Shire", year: 2001 },
@@ -12,13 +11,12 @@ const
  ]
 
 
- albumsRouter
-     .get("/", (req, res) => {
+albumsRouter.get('/', (req, res) => {
      res.send(albums)
  })
-     .post("/", (req, res) => {
+albumsRouter.post('/', (req, res) => {
      const newAlbum = req.body;
-     newAlbum._id = uuidv4()
+     newAlbum._id = uuidv4();
      albums.push(newAlbum);
  
          console.log(albums)

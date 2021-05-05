@@ -1,9 +1,8 @@
-const 
-     { v4: uuidv4 } = require('uuid');
-     express = require("express");
-     artistsRouter = express.Router();
+const { v4: uuidv4 } = require('uuid');
+const express = require("express");
+const artistsRouter = express.Router();
 
-     artists = [
+let artists = [
      { name: "Ed Sheeran", age: 30 },
      { name: "Adele", age: 32 },
      { name: "Alicia Keys", age: 40 },
@@ -11,13 +10,12 @@ const
      { name: "Jessie Reyez", age: 29 }
  ]
 
- artistsRouter
-     .get("/", (req, res) => {
+ artistsRouter.get('/', (req, res) => {
      res.send(artists)
  })
-     .post("/", (req, res) => {
+ artistsRouter.post('/', (req, res) => {
      const newArtist = req.body;
-     newArtist._id = uuidv4()
+     newArtist._id = uuidv4();
      artists.push(newArtist);
  
          console.log(artists)

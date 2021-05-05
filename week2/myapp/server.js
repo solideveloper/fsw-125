@@ -1,20 +1,17 @@
 
-const 
-    express = require('express');
-    app = express();
+const express = require('express');
+const app = express();
 
-    songsRouter = require('./routes/songsRouter')
-    albumsRouter = require('./routes/albumsRouter')
-    artistsRouter = require('./routes/artistsRouter')
+const songsRouter = require('./routes/songsRouter')
+const albumsRouter = require('./routes/albumsRouter')
+const artistsRouter = require('./routes/artistsRouter')
 
-    PORT = 3000;
+const PORT = 3000;
 
 //Application Level Middleware
-app.use
-    (express.json()) 
-    ('/songs', songsRouter)
-    ('/albums', albumsRouter)
-    ('artists', artistsRouter)
+app.use('/songs', songsRouter)
+app.use('/albums', albumsRouter)
+app.use('/artists', artistsRouter)
  
  app.listen(PORT, () => {
      console.log(`The server running on Port: ${PORT}`)

@@ -1,9 +1,9 @@
-const 
-     { v4: uuidv4 } = require('uuid');
-     express = require("express");
-     songsRouter = express.Router();
+const express = require("express");
+const songsRouter = express.Router();
+const { v4: uuidv4 } = require('uuid');
 
-     songs = [
+
+let songs = [
      { name: "Bloodstream", writtenBy: "Ed Sheeran & Johnny McDaid", _id: uuidv4() },
      { name: "Crazy For You", writtenBy: "Adele Adkins", _id: uuidv4() },
      { name: "Piano & I", writtenBy: "Alicia Keys", _id: uuidv4() },
@@ -11,17 +11,16 @@ const
      { name: "Coffin", writtenBy: "Jessie Reyez, Andre Robertson, Marshall Mather, Tobias Frelin", _id: uuidv4() }
  ]
 
-songsRouter
-     .get("/", (req, res) => {
+songsRouter.get('/', (req, res) => {
      res.send(songs)
  })
-     .post("/", (req, res) => {
+songsRouter.post('/', (req, res) => {
      const newSong = req.body;
-     newSong._id = uuidv4()
+     newSong._id = uuidv4();
      songs.push(newSong);
  
-         console.log(songs)
-     res.send(`Successfully added ${newSong.name} to the database`);
+    console.log(songs)
+    res.send(`Successfully added ${newSong.name} to the database`);
  })
 
  module.exports = songsRouter;
