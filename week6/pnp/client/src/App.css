@@ -1,0 +1,16 @@
+html {
+  background-image: url("https://user-images.githubusercontent.com/72266712/118377420-1f9eef00-b59b-11eb-99d6-e35526f7934b.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  color: whitesmoke;
+  text-align: center;
+  
+}
+
+.title {
+  color: black;
+  font-size: 70px;
+  text-decoration: underline crimson;
+}
+
