@@ -1,0 +1,39 @@
+html {
+  background-image: url("https://user-images.githubusercontent.com/72266712/118377420-1f9eef00-b59b-11eb-99d6-e35526f7934b.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  color: whitesmoke;
+  text-align: center;
+  
+}
+
+.title {
+  color: black;
+  font-size: 70px;
+  text-decoration: underline crimson;
+}
+
+.footerimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 2%;
+}
+.footer-wrapper {
+  text-align: center;
+}
+
+.bountyFiltered, .searchBox {
+  background-color: black;
+  list-style: none;
+  opacity: 0.7;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 2px;
+}
+.visually-hidden {
+  padding-top: 20px;
+}
+
+

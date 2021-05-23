@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan')
 
-const PORT = 9000;
+const PORT = 8000;
 
 //middleware
 app.use(express.json());
