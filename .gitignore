@@ -1,5 +1,4 @@
-package-lock.json
-package.json
+
 node_modules
 yarn.lock
 
@@ -131,3 +130,24 @@ LiveLecture/week1/assets/images/js-call-stack.png
 LiveLecture/week1/notes.md
 LiveLecture/week1/calc.js
 LiveLecture/week1/notes.js
+week7/lecture/notes.md
+week7/lecture/notes.js
+week7/capstone/client/package.json
+week7/capstone/package.json
+week7/capstone/package-lock.json
+week6/thing-finder/package.json
+week6/thing-finder/package-lock.json
+week6/bounty-hunter3/client/package.json
+week6/bounty-hunter3/package-lock.json
+.gitignore
+.gitignore
+week5/fullstack-react/package.json
+week5/fullstack-react/package-lock.json
+.gitignore
+week5/fullstack-react/client/package.json
+week5/fullstack-react/client/package-lock.json
+week6/bounty-hunter3/package.json
+week7/lecture/package.json
+.gitignore
+week7/lecture/package-lock.json
+.gitignore

@@ -1,0 +1,81 @@
+*, html{         
+  Font-family: 'Architects Daughter', cursive;
+  display: flex grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+input {
+  width: 175px;
+  margin-right: 1%;
+  margin-left: 1%;
+  height: 25px;
+}
+
+.add-btn, .delete-btn, .edit-btn, button{
+  
+  color: rgb(75, 105, 18);;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 3px rgb(75, 105, 18);
+  font-variant: small-caps;
+  font-weight: bold;
+  transition: background-color 1ms linear;
+}
+.add-btn {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.flavorName {
+  font-size: 42px;
+  text-decoration: underline rgb(132, 10, 10);
+  grid-column: 1/2;
+}
+.addFlavor {
+  grid-column: span 3;
+}
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+
+.list-container, ul, li{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  border-radius: 50%;
+}
+
+
+.containerBox {
+  padding-top: 40px;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.edit-btn {
+  color: rgb(249, 203, 0);;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 3px rgb(249, 203, 0);
+  font-variant: small-caps;
+  font-weight: bold;
+  transition: background-color 1ms linear;
+}
+
+.delete-btn {
+  
+  color: rgb(156, 28, 19);;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 3px rgb(156, 28, 19);
+  font-variant: small-caps;
+  font-weight: bold;
+  transition: background-color 1ms linear;
+}
+
+

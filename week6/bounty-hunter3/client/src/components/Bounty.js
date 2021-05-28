@@ -50,4 +50,5 @@ function Bounties(props){
         </div>
     );
 }
+
 export default Bounties;

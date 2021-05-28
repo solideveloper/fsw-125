@@ -1,0 +1,61 @@
+html {
+  Font-family: 'Architects Daughter', cursive;
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+.header {
+  overflow: hidden;
+  background-image: url("https://user-images.githubusercontent.com/72266712/100826499-82a32c00-3428-11eb-8a1a-a6a2e6f1cc41.png");
+  background-repeat: no-repeat, repeat;
+  background-position: top;
+  background-size: 75%;
+  margin-top: 1%;
+  opacity: 90%;
+
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+h1 {
+  padding-top: 3%;
+  font-size: 25px;
+  color: rgb(103, 22, 16);
+}
+.title {
+  color: black;
+  font-size: 40px;
+  text-decoration: underline rgb(220, 20, 20);
+}
+
+.mainimage {    
+  border: solid 2px rgb(28, 28, 63);
+  border-radius: 50%;
+  width: 35%; 
+  margin-top: 4%;
+
+ 
+}
+
+.footerimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 2%;
+}
+.footer-wrapper {
+  text-align: center;
+  grid-column: span 3;
+}
+
+.flavorFiltered{
+  list-style: none;
+  opacity: 0.7;
+  padding-bottom: 2px;
+}
+.visually-hidden {
+  padding-top: 20px;
+}
+
