@@ -46,7 +46,7 @@ function App() {
         }
     
         return bounties.filter((bounties) => {
-            const bountyName = bounties.type.toLowerCase();
+            const bountyName = bounties.type;
             return bountyName.includes(query);
         });
     };
